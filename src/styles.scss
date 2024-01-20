@@ -1,0 +1,49 @@
+body {
+  max-width: 600px;
+  margin: auto;
+  /* margin: 0; */
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  /* height: 100vh; */
+  background-color: #f0f0f0;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  /* max-width: 600px; */
+  /* margin: auto; */
+}
+h1 {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}

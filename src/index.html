@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Snake</title>
+  </head>
+  <body>
+    <div class="game">
+      <div>
+        <canvas id="gameCanvas"></canvas>
+      </div>
+      <div>
+        <button id="startButton">Start Game</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Game Instructions</h1>
+
+      <p>
+        <strong>Objective:</strong> Your task is to navigate the snake, collect
+        blocks, and avoid bombs and self-collision. Each block you collect or
+        shoot scores points. But be careful, as each block collected makes the
+        snake grow longer, making the game increasingly challenging!
+      </p>
+
+      <h2>Controls:</h2>
+      <ul>
+        <li><strong>Right Arrow:</strong> Turn the snake right.</li>
+        <li><strong>Left Arrow:</strong> Turn the snake left.</li>
+        <li><strong>Up Arrow:</strong> Turn the snake up.</li>
+        <li><strong>Down Arrow:</strong> Turn the snake down.</li>
+        <li>
+          <strong>X key:</strong> Shoot bullets if you have any in reserve.
+        </li>
+      </ul>
+
+      <h2>Game Elements:</h2>
+      <ul>
+        <li>
+          <strong>Snake:</strong> Your character. It moves around the board and
+          grows each time it collects a block.
+        </li>
+        <li>
+          <strong>Blocks:</strong> Collect or shoot these to score points.
+        </li>
+        <li>
+          <strong>Bombs:</strong> Avoid these! Contact with a bomb will cost a
+          life.
+        </li>
+        <li>
+          <strong>Bullets:</strong> You can shoot these after collecting a
+          certain number of blocks. Use them to remove blocks from a distance.
+        </li>
+      </ul>
+
+      <h2>Scoring and Snake Growth:</h2>
+      <ul>
+        <li>
+          Shooting a block with a bullet: <strong>15 points</strong>, and the
+          snake does <strong>not</strong> grow.
+        </li>
+        <li>
+          Collecting a block by the snake: <strong>10 points</strong>, and the
+          snake <strong>grows</strong>.
+        </li>
+      </ul>
+
+      <h2>Game Rules:</h2>
+      <ul>
+        <li>The game ends when you lose all lives.</li>
+        <li>
+          Collision with the snake itself or with a bomb will result in a loss
+          of life.
+        </li>
+        <li>After losing a life, the snake resets to its initial length.</li>
+        <li>
+          The game continues as long as you have at least one life remaining.
+        </li>
+      </ul>
+
+      <h2>Tips:</h2>
+      <ul>
+        <li>Plan your moves to avoid traps.</li>
+        <li>Use bullets strategically to remove hard-to-reach blocks.</li>
+      </ul>
+
+      <p>
+        <strong
+          >Are you ready for the challenge? Start the game and show what you're
+          made of!</strong
+        >
+      </p>
+    </div>
+  </body>
+</html>
